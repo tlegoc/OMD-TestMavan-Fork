@@ -38,6 +38,7 @@ public class FirstPdf {
                 addMetaData(document);
                 addTitlePage(document);
                 addContent(document);
+                // test ajout
                 document.close();
             } catch (Exception e) {
                 e.printStackTrace();
