@@ -111,6 +111,15 @@
                     </reportSet>
                 </reportSets>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-changelog-plugin</artifactId>
+            </plugin>
         </plugins>
     </reporting>
+
+    <scm>
+        <connection>scm:git:git://gitlab.istic.univ-rennes1.fr/tlegoc/omd-testmaven</connection>
+        <url>https://gitlab.istic.univ-rennes1.fr/tlegoc/omd-testmaven/-/blob/main/</url>
+    </scm>
 </project>
