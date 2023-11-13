@@ -43,7 +43,7 @@ public class FirstPdf {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else {
+        } else if (false) {
             try {
                 Document document = new Document();
                 PdfWriter.getInstance(document, new FileOutputStream(FILE));
